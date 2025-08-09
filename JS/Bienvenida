@@ -1,0 +1,41 @@
+/**
+ * Esta función genera un mensaje de bienvenida personalizado.
+ * @param {string} nombreUsuario - El nombre del usuario al que se va a saludar.
+ * @returns {string} - El mensaje de bienvenida completo.
+ */
+function crearMensajeDeBienvenida(nombreUsuario) {
+  // Obtenemos la hora actual para personalizar el saludo.
+  const horaActual = new Date().getHours();
+  let saludoDelDia;
+
+  if (horaActual < 12) {
+    saludoDelDia = "¡Buenos días!";
+  } else if (horaActual < 19) {
+    saludoDelDia = "¡Buenas tardes!";
+  } else {
+    saludoDelDia = "¡Buenas noches!";
+  }
+
+  // Usamos "template literals" (las comillas invertidas ``) para construir el mensaje.
+  // Es una forma más moderna y legible de combinar texto y variables.
+  const mensaje = `${saludoDelDia} ${nombreUsuario}. ¡Bienvenido/a a mi proyecto de aprendizaje!`;
+
+  return mensaje;
+}
+
+
+// --- ¡Aquí usamos la función! ---
+
+// 1. Definimos el nombre del usuario.
+const usuario = "Marcos";
+
+// 2. Llamamos a nuestra función para crear el mensaje.
+const mensajeFinal = crearMensajeDeBienvenida(usuario);
+
+// 3. Mostramos el resultado final en la consola.
+console.log(mensajeFinal);
+
+// --- Puedes probar con otro nombre ---
+const otroUsuario = "Ana";
+const otroMensaje = crearMensajeDeBienvenida(otroUsuario);
+console.log(otroMensaje);
