@@ -1,4 +1,4 @@
-<div align="center">
+<div align="left">
   <h1>🚀 Mi Camino de Aprendizaje Frontend 🚀</h1>
   <p>
     ¡Bienvenido/a! Este es el repositorio donde documento mi viaje para convertirme en Desarrollador Frontend. Aquí encontrarás mis proyectos, notas y ejercicios.
@@ -28,24 +28,6 @@ Estas son algunas de las tecnologías que estoy aprendiendo y utilizando en este
     <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/>
   </a>
 </p>
-
----
-
-## 📂 Estructura del Repositorio
-
-Para mantener todo organizado, el proyecto se divide en las siguientes carpetas:
-
-
-/
-├── 📁 VSCODE/
-│   └── 📝 Notas y configuraciones del editor.
-│
-├── 📁 JS/
-│   ├── 📝 Ejercicios y apuntes de JavaScript.
-│   └── 🚀 Mini-proyectos.
-│
-└── 📁 (Proximamente...)
-
 
 ---
 
